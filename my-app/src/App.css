@@ -1,0 +1,19 @@
+h1{
+  background-color: gray;
+  color: white;
+  font-size: bold;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+
+ ul li{
+  display: inline;
+  
+}
+
+.list-itm{
+  gap: 240px;
+}

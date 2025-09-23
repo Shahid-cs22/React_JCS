@@ -1,19 +1,28 @@
-h1{
-  background-color: gray;
-  color: white;
-  font-size: bold;
-}
 
-.nav{
+
+.nav {
+
+  width: 100%;
   display: flex;
+  background-color: rgba(205, 216, 226, 0.562);
   justify-content: space-between;
 }
 
- ul li{
+.list-itm li {
   display: inline;
-  
+  padding: 0px 30px;
+  gap: 20px;
+
+
+}
+.list-head{
+  margin-left: 30px;
 }
 
-.list-itm{
-  gap: 240px;
+.container{
+  font-weight: bold;
+}
+
+li:hover{
+  color: red;
 }

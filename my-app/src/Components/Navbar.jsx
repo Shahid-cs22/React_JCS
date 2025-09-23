@@ -5,7 +5,7 @@ const Navbar = () => {
         <>
             <div className='container'>
                 <div className="nav">
-                    <h3>Logo</h3>
+                    <h3 className='list-head'>Logo</h3>
 
                     <ul className='list-itm'>
                         <li>Home</li>

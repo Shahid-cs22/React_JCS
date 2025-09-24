@@ -13,7 +13,7 @@ const Page1 = () => {
                 <br />
             </div>
 
-            <div className="display-content">
+            {/* <div className="display-content">
                 <div className="images">
                     <img src={pics2} alt="" />
                     <img src={pics3} alt="" />
@@ -26,7 +26,7 @@ const Page1 = () => {
                     <img src={pics3} alt="" />
                 </div>
 
-            </div>
+            </div> */}
 
 
 

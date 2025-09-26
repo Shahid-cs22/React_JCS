@@ -2,14 +2,7 @@ import React, { useState } from 'react'
 
 const Condition1 = () => {
 
-    // const txt = document.getElementById("txt");
-    // const para = document.getElementById("para");
-    // const btn = document.getElementById("btn");
-
-    const [studentDetails, setStudentDetail] = useState({
-        name: "", email: "", phone: ""
-    })
-    const [para2, setPara2] = useState("");
+    // const [para2, setPara2] = useState("");
     const [para, setPara] = useState("");
     const [txt, setTxt] = useState("");
 
@@ -18,14 +11,15 @@ const Condition1 = () => {
     }
 
     const handleButtonClick = () => {
-
-        // setPara(txt);
-
-        setTxt("Welcome")
-
-
-
+        setPara(txt);
+        // setTxt("Welcome")
     }
+    
+
+    const [studentDetails, setStudentDetail] = useState({
+        name: "", email: "", phone: ""
+    })
+
 
     return (
         <>

@@ -12,7 +12,7 @@ const App = () => {
 
       <Navbar/>
       <Page1/>
-      <Condition1/>
+      {/* <Condition1/> */}
       <Condition2/>
       
       <Page2/>

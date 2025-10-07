@@ -8,6 +8,8 @@ import Condition2 from './Components/Condition2'
 import Condition1 from './Components/Condition1'
 import Sample1 from './Sample/sample1'
 import Inline from './Components/Inline'
+import Student from './Components/Student'
+
 const App = () => {
   return (
     <div>
@@ -21,10 +23,10 @@ const App = () => {
       {/* // <Page2/>
       // <Footer/> */}
       
-      <Inline/>
+      {/* <Inline/> */}
 
-      <Sample1/>
-      
+      {/* <Sample1/> */}
+      <Student/>
     </div>
   )
 }

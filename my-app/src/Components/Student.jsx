@@ -46,7 +46,8 @@ const Student = () => {
             <div className='stude'>
                 {
                     stu.map((detail) => (
-                        <div className='stud' ><h1 key={detail.id}> Name : {detail.name}</h1>
+                        <div className='stud' ><h1 key={detail.id}> 
+                        Name : {detail.name}</h1>
                             <h5>{detail.img}</h5>
 
                             <h2>price : {detail.age}</h2>

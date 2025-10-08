@@ -31,12 +31,12 @@ const App = () => {
       
        <Inline/>
 
-       <Sample1/> */}
+       <Sample1/> 
       <Student />
       <Sample2/>
-      <Tables/>
-      <Cards/>
-      
+      <Tables/> */}
+      <Cards />
+
 
     </div>
   )

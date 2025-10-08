@@ -1,4 +1,5 @@
 import React from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
@@ -9,6 +10,11 @@ import Condition1 from './Components/Condition1'
 import Sample1 from './Sample/sample1'
 import Inline from './Components/Inline'
 import Student from './Components/Student'
+import Sample2 from './Components/Sample2';
+import Tables from './Components/Tables';
+import Cards from './Components/Cards';
+
+
 
 const App = () => {
   return (
@@ -17,16 +23,21 @@ const App = () => {
       {/* <Navbar/>
       <Page1/>
       <Condition1/>
-      <Condition2/> */}
+      <Condition2/> 
       
       
-      {/* // <Page2/>
-      // <Footer/> */}
+       <Page2/>
+       <Footer/> 
       
-      {/* <Inline/> */}
+       <Inline/>
 
-      {/* <Sample1/> */}
-      <Student/>
+       <Sample1/> */}
+      <Student />
+      <Sample2/>
+      <Tables/>
+      <Cards/>
+      
+
     </div>
   )
 }

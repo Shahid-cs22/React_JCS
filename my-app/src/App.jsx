@@ -7,16 +7,17 @@ import Page1 from './Components/page1'
 import Page2 from './Components/Page2'
 import Condition2 from './Components/Condition2'
 import Condition1 from './Components/Condition1'
-import Sample1 from './Sample/sample1'
+
 import Inline from './Components/Inline'
 import Student from './Components/Student'
-import Sample2 from './Components/Sample2';
+
 import Tables from './Components/Tables';
 import Cards from './Components/Cards';
 
 import Students from './Components/Students';
-import FormUseState from './Components/FormUseState';
-import FormUseState2 from './Components/FormUseState2';
+import UseState1 from './Components/Hooks/useState1';
+import Count from './Components/Hooks/Count';
+
 
 
 
@@ -35,15 +36,16 @@ const App = () => {
 
       {/* <Inline/> */}
 
-      {/* <Sample1/>  */}
+      
       {/* <Student /> */}
-      {/* <Sample2/> */}
+    
       {/* <Tables/> */}
       {/* <Cards /> */}
       {/* <Students /> */}
-      <FormUseState/>
-      <FormUseState2/>
-
+      
+      {/* <UseState1/> */}
+      
+<Count/>
 
 
     </div>

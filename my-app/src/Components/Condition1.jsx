@@ -14,10 +14,12 @@ const Condition1 = () => {
         setPara(txt);
         // setTxt("Welcome")
     }
-    
+
 
     const [studentDetails, setStudentDetail] = useState({
-        name: "", email: "", phone: ""
+        name: "",
+        email: "",
+        phone: ""
     })
 
 

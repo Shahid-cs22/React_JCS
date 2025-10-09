@@ -15,6 +15,8 @@ import Tables from './Components/Tables';
 import Cards from './Components/Cards';
 
 import Students from './Components/Students';
+import FormUseState from './Components/FormUseState';
+import FormUseState2 from './Components/FormUseState2';
 
 
 
@@ -22,23 +24,25 @@ const App = () => {
   return (
     <div>
 
-      {/* <Navbar/>
-      <Page1/>
-      <Condition1/>
-      <Condition2/> 
-      
-      
-       <Page2/>
-       <Footer/> 
-      
-       <Inline/>
+      {/* <Navbar/> */}
+      {/* <Page1/> */}
+      {/* <Condition1/> */}
+      {/* <Condition2/>  */}
 
-       <Sample1/> 
-      <Student />
-      <Sample2/>
-      <Tables/> */}
-      <Cards />
-      <Students />
+
+      {/* <Page2/> */}
+      {/* <Footer/>  */}
+
+      {/* <Inline/> */}
+
+      {/* <Sample1/>  */}
+      {/* <Student /> */}
+      {/* <Sample2/> */}
+      {/* <Tables/> */}
+      {/* <Cards /> */}
+      {/* <Students /> */}
+      <FormUseState/>
+      <FormUseState2/>
 
 
 

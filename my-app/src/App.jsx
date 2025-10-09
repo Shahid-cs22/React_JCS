@@ -13,7 +13,8 @@ import Student from './Components/Student'
 import Sample2 from './Components/Sample2';
 import Tables from './Components/Tables';
 import Cards from './Components/Cards';
-import Cards2 from './Components/Cards2';
+
+import Students from './Components/Students';
 
 
 
@@ -37,8 +38,8 @@ const App = () => {
       <Sample2/>
       <Tables/> */}
       <Cards />
+      <Students />
 
-    
 
 
     </div>

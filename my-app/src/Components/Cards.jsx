@@ -132,7 +132,7 @@ const Cards = () => {
       <Row className="g-5">
         {cse.map((details) => (
           <Col key={details.S_No} xs={12} sm={6} md={4} lg={4}>
-            <Card className="text-center shadow-sm h-100">
+            <Card className="text-center shadow-sm h-100" style={{ borderRadius: '15px' }}>
               <Card.Img variant='top' src={details.image}/>
               
               <Card.Body>

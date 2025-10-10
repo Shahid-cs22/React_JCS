@@ -15,8 +15,10 @@ import Tables from './Components/Tables';
 import Cards from './Components/Cards';
 
 import Students from './Components/Students';
-import UseState1 from './Components/Hooks/useState1';
 import Count from './Components/Hooks/Count';
+import Props1 from './Components/Props/Props1';
+import Colour from './Components/Hooks/Colour';
+import UseState1 from './Components/Hooks/UseState1';
 
 
 
@@ -26,27 +28,34 @@ const App = () => {
     <div>
 
       {/* <Navbar/> */}
+
       {/* <Page1/> */}
+
       {/* <Condition1/> */}
+
       {/* <Condition2/>  */}
 
-
       {/* <Page2/> */}
+
       {/* <Footer/>  */}
 
       {/* <Inline/> */}
 
-      
       {/* <Student /> */}
-    
-      {/* <Tables/> */}
-      {/* <Cards /> */}
-      {/* <Students /> */}
-      
-      {/* <UseState1/> */}
-      
-<Count/>
 
+      {/* <Tables/> */}
+
+      {/* <Cards /> */}
+
+      {/* <Students /> */}
+
+      {/* <UseState1 /> */}
+
+      {/* <Count/> */}
+
+      {/* <Props1 /> */}
+
+      <Colour />
 
     </div>
   )

@@ -34,7 +34,7 @@ const UseState1 = () => {
                         <input type="email" name="email" id="" onChange={updateForm} />
                     </div>
 
-                    <Button onClick={handleSubmit214} > Click ME</Button>
+                    <Button onClick={handleSubmit} > Click ME</Button>
                 </div>
             </Form>
 

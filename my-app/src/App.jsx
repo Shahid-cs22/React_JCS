@@ -48,7 +48,7 @@ const App = () => {
 
       {/* <Tables/> */}
 
-      {/* <Cards /> */}
+      <Cards />
 
       {/* <Students /> */}
 
@@ -60,7 +60,7 @@ const App = () => {
 
       {/* <Colour /> */}
 
-      <Courses />
+      {/* <Courses /> */}
 
 
     </div>

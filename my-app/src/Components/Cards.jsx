@@ -1,5 +1,9 @@
 import React from 'react'
 import pic1 from '../assets/pic1.jpg'
+import pic2 from '../assets/pic2.jpg'
+import pic3 from '../assets/pic3.jpg'
+import pic4 from '../assets/pic4.jpg'
+// import pic5 from '../assets/pic5.jpg'
 import { Card, Col, Row, ListGroup } from 'react-bootstrap'
 
 const Cards = () => {
@@ -14,7 +18,8 @@ const Cards = () => {
       Address: "EATHAMOZHI",
       Blood_Group: "O+ve",
       Mobile_Number: "89034 26622",
-      image: pic1
+      img: pic1
+      
     },
     {
       S_No: "2",
@@ -26,7 +31,8 @@ const Cards = () => {
       Address: "TIRUPUR-633661",
       Blood_Group: "B+ve",
       Mobile_Number: "8778636441",
-      image: pic1
+      img: pic2
+     
     },
     {
       S_No: "3",
@@ -38,7 +44,8 @@ const Cards = () => {
       Address: "Mugamathoor-629174",
       Blood_Group: "B+ve",
       Mobile_Number: "7092373996",
-      image: pic1
+      img: pic3
+      
     },
     {
       S_No: "4",
@@ -50,7 +57,8 @@ const Cards = () => {
       Address: "PARAPATU-629252",
       Blood_Group: "O-ve",
       Mobile_Number: "93845 69903",
-      image: pic1
+      img: pic4
+      
     },
     {
       S_No: "5",
@@ -62,7 +70,8 @@ const Cards = () => {
       Address: "KALKULAM-629802",
       Blood_Group: "B+ve",
       Mobile_Number: "77087 32676",
-      image: pic1
+     
+      
     },
     {
       S_No: "6",
@@ -74,7 +83,7 @@ const Cards = () => {
       Address: "NAGERCOIL-629252",
       Blood_Group: "A1+ve",
       Mobile_Number: "63744 96486",
-      image: pic1
+      
     },
     {
       S_No: "7",
@@ -86,7 +95,7 @@ const Cards = () => {
       Address: "Xavierpuram-629174",
       Blood_Group: "B+ve",
       Mobile_Number: "90421 07780",
-      image: pic1
+      
     },
     {
       S_No: "8",
@@ -98,7 +107,7 @@ const Cards = () => {
       Address: "Azhaganparai-629252",
       Blood_Group: "O-ve",
       Mobile_Number: "94422 63837",
-      image: pic1
+      
     },
     {
       S_No: "9",
@@ -110,7 +119,7 @@ const Cards = () => {
       Address: "Allencode-629802",
       Blood_Group: "B+ve",
       Mobile_Number: "80727 68346",
-      image: pic1
+      
     },
     {
       S_No: "10",
@@ -122,7 +131,7 @@ const Cards = () => {
       Address: "Thickanamcode-629804",
       Blood_Group: "O+ve",
       Mobile_Number: "94896 55706",
-      image: pic1
+    
     }
   ]
 
@@ -133,7 +142,7 @@ const Cards = () => {
         {cse.map((details) => (
           <Col key={details.S_No} xs={12} sm={6} md={4} lg={4}>
             <Card className="text-center shadow-sm h-100" style={{ borderRadius: '15px' }}>
-              <Card.Img variant='top' src={details.image}/>
+              <Card.Img variant='top' src={details.img} style={{minHeight:"300px"}}/>
               
               <Card.Body>
                 <Card.Title>

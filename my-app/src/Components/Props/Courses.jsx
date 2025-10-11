@@ -15,6 +15,7 @@ const Courses = () => {
             <div className="text-center pt-5">
 
                 <h3> My Department is {dept} and my College is {clg} </h3> <hr />
+                
                 <Books dpt={clg} cg = {clg} />
                 
 

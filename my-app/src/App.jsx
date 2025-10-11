@@ -19,6 +19,9 @@ import Count from './Components/Hooks/Count';
 import Props1 from './Components/Props/Props1';
 import Colour from './Components/Hooks/Colour';
 import UseState1 from './Components/Hooks/UseState1';
+import Courses from './Components/Props/Courses';
+
+
 
 
 
@@ -55,7 +58,10 @@ const App = () => {
 
       {/* <Props1 /> */}
 
-      <Colour />
+      {/* <Colour /> */}
+
+      <Courses />
+
 
     </div>
   )

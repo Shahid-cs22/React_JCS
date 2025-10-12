@@ -1,12 +1,24 @@
 import React from 'react'
-
-//props 2-2
+import { Card, CardTitle, CardBody, CardSubtitle, CardText, Button } from 'react-bootstrap'
 
 const Books = (props) => {
-    const text = `My Department is ${props.dpt} and my College is ${props.cg}+`;
     return (
         <>
-            <h1>{text}</h1>
+
+            <div className="demo1 pt-4  " style={{ display: 'inline-block' }}>
+
+                <Card border='1 shadow' xs={12} sm={6} md={4} lg={3} className='text-center h-100 sm-2 mb-4 ' style={{ width: '18rem', margin: '10px', marginLeft: '40px' }}>
+                    <CardTitle className='pt-2 text-danger'>{props.name}</CardTitle>
+                    <CardBody >
+                        <CardSubtitle className='text-secondary mb-2' >Course :{props.course}</CardSubtitle> <hr />
+                        <CardText >Price: ${props.price}</CardText>
+                        <Button className='btn btn-secondary fs-6'>Buy Now</Button>
+                    </CardBody>
+                    <Card.Footer className="text-muted">Last updated 3 mins ago</Card.Footer>
+                </Card>
+
+            </div>
+
         </>
     )
 }

@@ -26,6 +26,8 @@ import Courses from './Components/Props/Courses';
 
 
 
+
+
 const App = () => {
   return (
     <div>
@@ -48,7 +50,7 @@ const App = () => {
 
       {/* <Tables/> */}
 
-      <Cards />
+      
 
       {/* <Students /> */}
 
@@ -62,6 +64,10 @@ const App = () => {
 
       {/* <Courses /> */}
 
+{/* <Cards /> */}
+
+<Courses/>
+  
 
     </div>
   )

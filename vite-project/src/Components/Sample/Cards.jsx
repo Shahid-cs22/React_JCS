@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardBody, CardFooter, CardImg, Col, Row } from 'react-bootstrap';
-import img1 from '.../assets/pic1.jpg/'
+// import img1 from '.../assets/pic1.jpg/'
 
 
 const Cards = () => {
@@ -14,7 +14,7 @@ const Cards = () => {
             DOB: "16-10-2004 (18)",
             Address: "5/29\nKUNNANKADU\nNAGERCOIL-629252",
             Blood_Group: "A1+ve",
-            img:"img1"
+            img: "img1"
         },
         {
             S_No: "7",
@@ -38,7 +38,18 @@ const Cards = () => {
             Blood_Group: "O-ve",
             Mobile_Number: "94422 63837",
         },
-        // ...rest of the array
+        {
+            S_No: "23",
+            Studentid: "2715",
+            Roll_No: "22RUCSA023",
+            Student_Name: "CHRISTOBHA  T",
+            Section: "II Year III Sem  A",
+            DOB: "01-01-2005 (18)",
+            Address: "13-22\nr.c.street\nMEKKAMANDAPAM-629166",
+            Blood_Group: "B+ve",
+            Mobile_Number: "99523 14034"
+        }
+
     ];
 
     return (
@@ -48,7 +59,7 @@ const Cards = () => {
                 {stu.map((mem) => (
                     <Col key={mem.S_No} xs={12} sm={6} md={4} lg={3}>
                         <Card className='shadow-lg border-0 rounded-3 h-100 text-center'>
-                            <CardImg variant="top" src={mem.img} alt={mem.Student_Name} /> 
+                            <CardImg variant="top" src={mem.img} alt={mem.Student_Name} />
                             <CardBody>
                                 <h5>{mem.Student_Name}</h5>
 

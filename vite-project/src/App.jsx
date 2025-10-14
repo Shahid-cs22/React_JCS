@@ -7,6 +7,7 @@ import Cards from './Components/Sample/Cards';
 import Fprops from './Components/Props/Fprops';
 import Count from './Components/HooksUseState/Count';
 import InputUseState from './Components/HooksUseState/InputUseState';
+import Colour from './Components/HooksUseState/Colour';
 
 
 const App = () => {
@@ -18,9 +19,12 @@ const App = () => {
       {/* <LoopMap />
       <Table1 />
       <Cards />
-      <Fprops /> */}
+      <Fprops />
       <Count/>
-      <InputUseState/>
+      <InputUseState/> */}
+
+      <Colour />
+
     </>
 
   )

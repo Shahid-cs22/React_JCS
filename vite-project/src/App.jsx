@@ -10,6 +10,7 @@ import InputUseState from './Components/HooksUseState/InputUseState';
 import Colour from './Components/HooksUseState/Colour';
 
 
+
 const App = () => {
 
 
@@ -21,10 +22,9 @@ const App = () => {
       <Cards />
       <Fprops />
       <Count/>
-      <InputUseState/> */}
-
-      <Colour />
-
+      <InputUseState/>
+      */}
+ <Colour />
     </>
 
   )

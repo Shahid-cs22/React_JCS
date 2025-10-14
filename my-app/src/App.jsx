@@ -1,22 +1,11 @@
 import React from 'react'
+import { BrowserRouter, Route, Routes} from "react-router-dom"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'
-import Navbar from './Components/Sample/Navbar';
-import Page1 from './Components/Sample/Page1';
-import Condition1 from './Components/Sample/Condition1';  
-import Condition2 from './Components/Sample/Condition2';
-import Page2 from './Components/Sample/Page2';
-import Footer from './Components/Sample/Footer';
-import Inline from './Components/Sample/Inline';
-import Student from './Components/Sample/Student';
-import Tables from './Components/Sample/Tables';
-import Students from './Components/Sample/Students';
-
-
-
-
-
-
+import Home from './Components/Home';
+import About from './Components/About';
+import Contact from './Components/Contact';
+import Device from './Components/Device';
 
 
 
@@ -26,54 +15,21 @@ const App = () => {
 
   const a = "hello"
   return (
-    <div>
-
-      {/* <Navbar/> */}
-
-      {/* <Page1/> */}
-
-      {/* <Condition1/> */}
-
-      {/* <Condition2/>  */}
-
-      {/* <Page2/> */}
-
-      {/* <Footer/>  */}
-
-      {/* <Inline/> */}
-
-      {/* <Student /> */}
-
-      {/* <Tables/> */}
+    <>
 
 
+      <BrowserRouter>
+        {/* <Device /> */}
+        <Routes>
 
-      {/* <Students /> */}
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/contact" element={<Contact />} />
 
-      {/* <UseState1 /> */}
+        </Routes>
+      </BrowserRouter>
 
-      {/* <Count/> */}
-
-      {/* <Props1 /> */}
-
-      {/* <Colour /> */}
-
-      {/* <Courses /> */}
-
-      {/* <Cards /> */}
-
-      {/* <Courses/> */}
-
-      <providerr.Provider value={a}>
-        <div>
-          <Context />
-        </div>
-      </providerr.Provider>
-
-
-
-
-    </div>
+    </>
   )
 }
 

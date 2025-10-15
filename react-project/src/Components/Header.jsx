@@ -1,6 +1,7 @@
 import React from 'react'
 import img1 from '../assets/logo.jpg'
 import { Navbar } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -10,22 +11,19 @@ const Header = () => {
 
 
         <div className="nav-logo">
-          <img src={img1} alt="" style={{ height: "60px", borderRadius: '50px' }} />
+         <Link to ="/"> <img src={img1} alt="" style={{ height: "60px", borderRadius: '50px' }} /></Link>
         </div>
 
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav"> */}
-          <div className="nav-items">
 
-            <ul>
-              <li>Home</li>
-              <li>About</li>
-              <li>Portfolio</li>
-              <li>Services</li>
-              <li>Contact</li>
-            </ul>
-          </div>
-        {/* </Navbar.Collapse> */}
+        <div className="nav-items">
+
+          <ul>
+            <Link to="/"><li>Home</li></Link>
+            <Link to="/about"><li>About</li></Link>
+            <Link to="/contact"> <li>Contact</li></Link>
+          </ul>
+        </div>
+
       </div>
 
 

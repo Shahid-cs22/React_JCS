@@ -5,10 +5,9 @@
   --btn-radius: 8px;
   --btn-hover-bg: #0056b3;
   --btn--text-color: black;
-
   --nav--bg-color: hwb(0 22% 77% / 0.842);
-
   --link--hover-color:hsla(59, 100%, 50%, 0.918);
+  --background--color: hsla(175, 72%, 72%, 0.767);
 }
 
 * {
@@ -55,4 +54,27 @@
 
   color: var(--link--hover-color);
   transition: 1.2s;
+}
+
+.footer-footer-2{
+ background-color: var(--nav--bg-color);
+ padding: 20px 0px 20px 0px;
+ color: var(--btn-color);
+}
+
+.footer-footer-1{
+  background-color: var(--background--color);
+  padding-bottom: 20px;
+}
+
+.footer-link{
+  cursor: pointer;
+ 
+  padding-top: 20px;
+  border-radius: 20px;
+  min-height: 140px;
+}
+
+.footer-link p:hover{
+  color: red;
 }

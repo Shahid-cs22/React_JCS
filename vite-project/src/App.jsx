@@ -8,6 +8,9 @@ import Fprops from './Components/Props/Fprops';
 import Count from './Components/HooksUseState/Count';
 import InputUseState from './Components/HooksUseState/InputUseState';
 import Colour from './Components/HooksUseState/Colour';
+import { Route, Routes } from 'react-router-dom';
+import Header from './Components/TTitle/Header';
+import View from './View';
 
 
 
@@ -23,8 +26,21 @@ const App = () => {
       <Fprops />
       <Count/>
       <InputUseState/>
+      <Colour />
       */}
- <Colour />
+
+      <div>
+        <Routes>
+          <Route path='/' element={<View />} />
+          <Route path='/about' element={<InputUseState />} />
+          <Route path='/session' element={<Count />} />
+          <Route path='/blog' element={<LoopMap />} />
+          <Route path='/footer' element={<Cards />} />
+          <Route path='/dash' element={<Fprops />} />
+
+
+        </Routes>
+      </div>
     </>
 
   )

@@ -11,6 +11,7 @@ import Colour from './Components/HooksUseState/Colour';
 import { Route, Routes } from 'react-router-dom';
 import Header from './Components/TTitle/Header';
 import View from './View';
+import Context1 from './Components/HooksUseContext/Context1';
 
 
 
@@ -37,6 +38,7 @@ const App = () => {
           <Route path='/blog' element={<LoopMap />} />
           <Route path='/footer' element={<Cards />} />
           <Route path='/dash' element={<Fprops />} />
+          <Route path='/context' element={<Context1 />} />
 
 
         </Routes>

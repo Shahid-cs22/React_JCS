@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Card, CardBody, CardFooter, CardImg, Col, Row } from 'react-bootstrap';
 // import img1 from '.../assets/pic1.jpg/'
 
+import { data } from '../HooksUseContext/Context1'
 
 const Cards = () => {
+
     const stu = [
         {
             S_No: "6",
@@ -51,10 +53,10 @@ const Cards = () => {
         }
 
     ];
-
+    const a = useContext(data)
     return (
         <div className="p-4">
-            <h2 className="mb-4 text-center text-primary fw-bold">Students Details</h2>
+            <h2 className="mb-4 text-center text-primary fw-bold">Students Details !{a}</h2>
             <Row className="g-4">
                 {stu.map((mem) => (
                     <Col key={mem.S_No} xs={12} sm={6} md={4} lg={3}>
@@ -64,7 +66,7 @@ const Cards = () => {
                                 <h5>{mem.Student_Name}</h5>
 
                                 <p><strong>Roll No:</strong> {mem.Roll_No}</p>
-                                <p><strong>Mobile:</strong> {mem.Mobile_Number || 'N/A'}</p>
+                                <p><strong>Mobile:</strong> {mem.Mobile_Number}</p>
                                 <p><strong>Blood Group:</strong> {mem.Blood_Group}</p>
                             </CardBody>
                             <CardFooter>{mem.Section}</CardFooter>

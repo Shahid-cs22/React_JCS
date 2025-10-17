@@ -1,0 +1,14 @@
+.loginPg {
+  height: 350px;
+  border: 1px solid lightgray;
+  width: 30%;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 10rem;
+  border-radius: 10px;
+
+}
+
+.loginPg:hover {
+  box-shadow: 0.55px 0.55px gray;
+}

@@ -1,22 +1,28 @@
 import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import React from 'react'
 import { InputGroup } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 
 
 const Login = () => {
+    const navigSign =useNavigate();
+
+    const goToSignin = ()=>{
+        navigSign("/sigin")
+    }
     return (
         <>
 
 
             <div className='loginPg'>
-                <Container >
-                    <Row lg={12} sm={12}>
+                <Container  >
+                    <Row  lg={12} sm={12} >
                         <Col>
                             <h2 className='text-center pb-4 pt-3'>Login</h2>
                             <InputGroup className="mb-5">
                                 <InputGroup.Text id="basic-addon1"><i class="fa-solid fa-user"></i> </InputGroup.Text>
                                 <Form.Control
-                                    placeholder="Username"
+                                    placeholder="username"
                                     aria-label="Username"
                                     aria-describedby="basic-addon1"
                                 />
@@ -24,7 +30,7 @@ const Login = () => {
                         </Col>
                         <Col className='d-none'></Col>
                     </Row>
-                    <Row>
+                    <Row lg={12} sm={12}>
                         <Col>
                             <InputGroup className="mb-4">
                                 <InputGroup.Text id="inputPassword5"><i class="fa-solid fa-unlock"></i></InputGroup.Text>
@@ -39,7 +45,7 @@ const Login = () => {
                         <Col className='d-none'></Col>
                     </Row>
                     <div>
-                        <Button variant="link">Forgot Password?</Button> <Button variant="link">SignIn</Button></div>
+                        <Button variant="link">Forgot Password?</Button> <Button variant="link" onClick={goToSignin}>SignIn</Button></div>
                 </Container>
 
 

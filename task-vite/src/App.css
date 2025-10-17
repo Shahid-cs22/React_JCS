@@ -12,3 +12,31 @@
 .loginPg:hover {
   box-shadow: 0.55px 0.55px gray;
 }
+
+.signPg {
+  height: 450px;
+  border: 1px solid lightgray;
+  width: 30%;
+  margin: auto;
+  padding-top: 20px;
+  margin-top: 5rem;
+  border-radius: 10px;
+
+}
+
+.signbutn {
+ justify-content: center;
+  margin: auto;
+  display: flex;
+  font-weight: 700;
+ 
+}
+
+.signbutn1{
+  justify-content: center;
+}
+
+
+.nav-bar{
+  display: flex;
+}

@@ -1,8 +1,5 @@
-.about{
-    color: yellow;
-    background-color: beige;
-    width: 20%;
-    justify-content: center;
-    text-align: center;
-    margin: auto;
+.about-full{
+    background-color: hsl(80, 15%, 98%);
+    /* background:repeat; */
 }
+

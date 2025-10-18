@@ -1,18 +1,13 @@
 import React from 'react'
-import Home from './Pages/Home'
 
-
-const Display = () => {
+const Recipes = () => {
     return (
         <>
             <div>
-
-
-                <Home />
-
+<h1>welcome to RECIPES</h1>
             </div>
         </>
     )
 }
 
-export default Display
+export default Recipes

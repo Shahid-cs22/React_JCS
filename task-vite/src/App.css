@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -30,19 +30,19 @@
 }
 
 .signbutn {
- justify-content: center;
+  justify-content: center;
   margin: auto;
   display: flex;
   font-weight: 700;
- 
+
 }
 
-.signbutn1{
+.signbutn1 {
   justify-content: center;
 }
 
 
-.nav-bar{
+.nav-bar {
   display: flex;
 }
 
@@ -52,3 +52,18 @@
   font-style: normal;
 }
 
+.header-menu {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+.home-title {
+  font-family: "Rubik Puddles", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 20px;
+  background-color: beige;
+
+}

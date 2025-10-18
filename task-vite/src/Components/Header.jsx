@@ -16,12 +16,12 @@ const Header = () => {
           <Navbar.Brand as={Link} to="/" className='nav-logo'>FoodHUB</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto gap-4">
-              <Nav.Link as={Link} to="/">Home</Nav.Link>
+            <Nav className="ms-auto gap-4 header-menu">
+              <Nav.Link as={Link} to="/home">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/recipes">Recipes</Nav.Link>
               <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
-              <Nav.Link as={Link} to="/login">Login <i className="fa-solid fa-user-plus" style={{ color: "#dfdddd;" }}></i></Nav.Link>
+              <Nav.Link as={Link} to="/sigin">Sigin <i className="fa-solid fa-user-plus" style={{ color: "#dfdddd;" }}></i></Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

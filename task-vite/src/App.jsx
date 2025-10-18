@@ -5,6 +5,7 @@ import Signin from './LoginSignPage/Signin';
 import Header from './Components/Header';
 import { Route, Routes } from 'react-router-dom';
 import Display from './Display';
+import About from './Pages/Aboutpg/About';
 
 
 
@@ -25,8 +26,10 @@ const App = () => {
 
           <Route path='/' element={<Display />} />
           <Route path='/' element={<Header />} />
+          <Route path='/about' element={<About />} />
           <Route path='/login' element={<Login />} />
           <Route path='/sigin' element={<Signin />} />
+
         </Routes>
 
       </div>

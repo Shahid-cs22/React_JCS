@@ -14,7 +14,7 @@ const Login = () => {
         <>
 
 
-            <div className='loginPg'>
+            <div className='loginPg '>
                 <Container  >
                     <Row  lg={12} sm={12} >
                         <Col>

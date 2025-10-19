@@ -16,7 +16,7 @@ const Header = () => {
           <Navbar.Brand as={Link} to="/" className='nav-logo'>FoodHUB</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto gap-4 header-menu">
+            <Nav className="ms-auto gap-4 header-menu ">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/recipes">Recipes</Nav.Link>

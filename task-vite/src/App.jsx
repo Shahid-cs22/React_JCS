@@ -8,6 +8,7 @@ import Display from './Display';
 import About from './Pages/Aboutpg/About';
 import Home from './Pages/Home';
 import Recipes from './Pages/Recipespg/Recipes';
+import Contact from './Pages/Contactpg/Contact';
 
 
 
@@ -30,8 +31,8 @@ const App = () => {
           <Route path='/' element={<Header />} />
           <Route path='/home' element={<Home />} />
           <Route path='/about' element={<About />} />
-          <Route path='/recipes' element={<Recipes/>}/>
-
+          <Route path='/recipes' element={<Recipes />} />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/login' element={<Login />} />
           <Route path='/sigin' element={<Signin />} />
 

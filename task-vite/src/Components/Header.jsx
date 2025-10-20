@@ -13,10 +13,10 @@ const Header = () => {
 
       <Navbar expand="lg" className="bg-body-tertiary" bg="dark" data-bs-theme="dark">
         <Container className='p-0'>
-          <Navbar.Brand as={Link} to="/" className='nav-logo'>FoodHUB</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto gap-4 header-menu ">
+          <Navbar.Brand as={Link} to="/" className='nav-logo mx-3'>FoodHUB</Navbar.Brand>
+          <Navbar.Toggle aria-controls="basic-navbar-nav " />
+          <Navbar.Collapse id="basic-navbar-nav " className='mx-3'>
+            <Nav className="ms-auto gap-4 header-menu fw-semibold ">
               <Nav.Link as={Link} to="/home">Home</Nav.Link>
               <Nav.Link as={Link} to="/about">About</Nav.Link>
               <Nav.Link as={Link} to="/recipes">Recipes</Nav.Link>

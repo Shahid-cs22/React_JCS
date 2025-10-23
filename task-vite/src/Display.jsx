@@ -1,5 +1,7 @@
 import React from 'react'
 import Home from './Pages/Home'
+import Detail from './Pages/Cardss/Detail'
+
 
 
 const Display = () => {
@@ -9,6 +11,7 @@ const Display = () => {
 
 
                 <Home />
+                <Detail />
 
             </div>
         </>

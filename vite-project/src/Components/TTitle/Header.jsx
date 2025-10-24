@@ -23,6 +23,8 @@ const Header = () => {
             <Link to="/blog"><li>Blog</li></Link>
             <Link to="/dash"><li>Teatinomal</li></Link>
             <Link to="/footer"><li>Footer</li></Link>
+           
+            <Link to="/CardStudents"><li>CardStudents</li></Link>
             <Link to="/context"><li>Context</li></Link>
           </ul>
         </div>

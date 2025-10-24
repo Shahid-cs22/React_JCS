@@ -1,4 +1,4 @@
-[
+ const stu = [
   {
     S_No: "1",
     Studentid: "2688",

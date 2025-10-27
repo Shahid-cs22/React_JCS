@@ -1,6 +1,8 @@
 import React from 'react'
 import { Card, ListGroup, Row, Col, CardFooter, Button } from 'react-bootstrap'
-import foodList from '../../foodList'
+
+import { Link } from 'react-router-dom'
+import {foodList} from '../../foodList'
 
 const Recipes = () => {
     return (
@@ -26,7 +28,7 @@ const Recipes = () => {
                             </Card.Body>
                             <CardFooter className='text-center' >
                                 <Button variant='warning' size="sm" className='mx-1'>Buy Now</Button>
-                                <Button variant='secondary' size="sm">Order Now</Button>
+                                <Link to={`/recipies/${item.id}`} variant='secondary' size="sm">View</Link>
 
                             </CardFooter>
 

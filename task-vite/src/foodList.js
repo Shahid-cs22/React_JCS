@@ -1,4 +1,4 @@
-const foodList = [
+export const foodList = [
   {
     id: 1,
     name: "Margherita Pizza",

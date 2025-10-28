@@ -2,7 +2,7 @@ import React from 'react'
 import { Button, Stack, ButtonGroup, Slider, Box } from '@mui/material'
 import SendIcon from '@mui/icons-material/Send';
 import MuiFirst from './Components/UmiComponent/MuiFirst';
-
+import Theme from './Components/ThemeUmi/Theme';
 // import Box from '@mui/material/Box';
 // import Slider from '@mui/material/Slider';
 
@@ -19,6 +19,7 @@ const View = () => {
 
             </div>
             <MuiFirst/>
+            <Theme/>
            
 
         </>

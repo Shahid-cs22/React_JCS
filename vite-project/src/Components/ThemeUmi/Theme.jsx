@@ -1,21 +1,27 @@
-import { colors, createTheme } from '@mui/material'
-import { green } from '@mui/material/colors'
-import React from 'react'
+// import { createTheme, ThemeProvider } from '@mui/material'
+// import React from 'react'
 
-const Theme = () => {
-    const theme = createTheme({
-        palette:{
-            primary:{
-                main :gr
-            }
-        }
-    })
-    return (
-        <>
-        
 
-        </>
-    )
-}
+// const Theme = () => {
+//     const theme = createTheme({
+//         palette: {
+//             primary: {
+//                 main: '#1976d2',
+//             },
+//             secondary: {
+//                 main: '#dc004e',
+//             },
+//         },
 
-export default Theme
+//         typography:{
+//             fontFamily:'poppins, Arial',
+//             h1:{
+//                 fontWeight:'700',
+//             }
+//         }
+//     });
+   
+   
+// }
+
+// export default Theme

@@ -14,9 +14,9 @@ const StudentsDetails = () => {
         usenavi('/tablesBoots');
     }
 
-    const goToDetails = () => {
-        usenavi('/viewdetails');
-    }
+    // const goToDetails = () => {
+    //     usenavi('/studentsView');
+    // }
     return (
         <>
             <div className="d-flex gap-4 flex-wrap justify-content-center mt-4 mb-4">
@@ -34,7 +34,7 @@ const StudentsDetails = () => {
                             </Card.Text>
                             <div className="d-flex justify-content-center gap-4">
                                 <Button variant="primary" onClick={goToHome}>Home</Button>
-                                <Link to={`/useparams/id:${data.id}`} className="btn btn-success btn-sm" onClick={goToDetails}> Details </Link>
+                                <Link to={`/useparams/${data.id}`} className="btn btn-success btn-sm" > Details </Link>
                             </div>
                         </Card.Body>
                     </Card>

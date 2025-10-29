@@ -29,7 +29,7 @@ const App = () => {
         <Route path='/usestate' element={<UseStateHooks2 />} />
         <Route path='/usecontext' element={<MainContext />} />
         <Route path='/useparams' element={<StudentsDetails />} />
-        <Route path='/useparams/id:' element={<StudentsView />} />
+        <Route path='/useparams/:id' element={<StudentsView />} />
 
 
       </Routes>

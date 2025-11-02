@@ -5,6 +5,7 @@ import { CssBaseline } from '@mui/material';
 import { ThemeProvider } from '@mui/material/styles';
 import Header from './Components/Header';
 import Home from './pages/Homepg/Home';
+import Secondpage from './pages/SecondPG/Secondpage';
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
 
       <CssBaseline />
       <Header />
-      <Home/>
+      <Secondpage />
+      <Home />
 
     </ThemeProvider>
   );

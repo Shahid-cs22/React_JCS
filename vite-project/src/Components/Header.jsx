@@ -93,12 +93,12 @@ function Header(props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
+      {/* <Box component="main" sx={{ p: 3 }}>
         <Toolbar />
         <Typography>
           aut sapiente modi nesciunt.
         </Typography>
-      </Box>
+      </Box> */}
     </Box>
   );
 }

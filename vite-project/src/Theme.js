@@ -9,16 +9,13 @@ export const myTheme = createTheme({
         },
         text: {
             main: '#0be0fcff',
-            secondary: '#0a3a23c7',
 
         },
         secondary: {
             main: '#462307ff',
         },
         error: {
-            main: '#ffa600ff',
-            light:'#bbff0091'
-           
+            main: '#ffa600ff',           
         }
     },
 
@@ -27,7 +24,7 @@ export const myTheme = createTheme({
         h2: {
             fontSize: '2rem',
             fontWeight: 'bold',
-            color: '#c9abb9ff',
+            color: '#ffae00ff',
         },
         h6: {
             fontWeight: 'bold',

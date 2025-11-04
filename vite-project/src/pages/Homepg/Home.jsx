@@ -1,14 +1,7 @@
 import React from 'react';
-import {
-  Card,
-  CardContent,
-  CardMedia,
-  Typography,
-  Button,
-  CardActionArea,
-  CardActions,
-  Box
-} from '@mui/material';
+import {Card,CardContent,CardMedia,Typography,Button,CardActionArea,CardActions,Box} from '@mui/material';
+import img1 from '../../assets/user.jpg'
+
 
 const detail = [
   {
@@ -16,30 +9,29 @@ const detail = [
     title: 'Lizard',
     description:
       'Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica.',
-    imgSrc: '/assets/publicimg/user.jpg',
+    imgSrc: img1
   },
   {
     id: 2,
     title: 'Gecko',
     description:
       'Geckos are small, mostly carnivorous lizards found in warm climates throughout the world.',
-    imgSrc: '/assets/publicimg/user.jpg',
+    imgSrc: img1
   },
   {
     id: 3,
     title: 'Iguana',
-    description:
-      'Iguanas are herbivorous lizards native to tropical areas of Mexico, Central America, South America, and the Caribbean.',
-    imgSrc: '/assets/publicimg/user.jpg',
+    description: 'Iguanas are herbivorous lizards native to tropical areas of Mexico, Central America, South America, and the Caribbean.',
+    imgSrc: img1
   },
 ];
 
 const Home = () => {
   return (
     <>
-     
 
-      <Box display="flex" flexWrap="wrap" gap={3} p={2}>
+
+      <Box display="flex" flexWrap="wrap" gap={3} p={5} mt={10} >
         {detail.map((item) => (
           <Card key={item.id} sx={{ maxWidth: 345 }}>
             <CardActionArea>
@@ -48,6 +40,7 @@ const Home = () => {
                 height="180"
                 image={item.imgSrc}
                 alt={item.title}
+
               />
               <CardContent>
                 <Typography

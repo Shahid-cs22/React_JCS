@@ -6,6 +6,7 @@ import { ThemeProvider } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
 import theme from './Theme';
 import FirstPage from './pages/FirstPage';
+import SecondPage from './pages/SecondPage';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <CssBaseline />
       <Navbar />
       <FirstPage/>
+      <SecondPage/>
     </ThemeProvider>
   );
 }

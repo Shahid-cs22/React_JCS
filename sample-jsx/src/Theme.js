@@ -3,9 +3,9 @@ import { createTheme } from '@mui/material/styles';
 
 const theme = createTheme({
   palette: {
-    mode: 'light',
+  
     primary: {
-      main: '#6c1283ff',
+      main: '#9621dfff',
       light: '#9c4dcc',
       dark: '#4a0d5a',
       contrastText: '#ffffff',
@@ -46,7 +46,7 @@ const theme = createTheme({
     h1: {
       fontSize: '3rem',
       fontWeight: 700,
-      color: '#6c1283ff',
+      color: '#b11cd6af',
     },
     h2: {
       fontSize: '2.25rem',
@@ -56,7 +56,7 @@ const theme = createTheme({
     h3: {
       fontSize: '1.75rem',
       fontWeight: 600,
-      color: '#6c1283ff',
+      color: '#d61010ff',
     },
     body1: {
       fontSize: '1.125rem',
@@ -80,23 +80,17 @@ const theme = createTheme({
     MuiButton: {
       styleOverrides: {
         root: {
-          borderRadius: 15,
+         
           textTransform: 'none',
           padding: '10px 20px',
           fontWeight: 600,
         },
         containedPrimary: {
-          color: '#fff',
+          color: '#e00606ff',
         },
       },
     },
-    MuiPaper: {
-      styleOverrides: {
-        root: {
-          borderRadius: 15,
-        },
-      },
-    },
+ 
     MuiAppBar: {
       styleOverrides: {
         colorPrimary: {

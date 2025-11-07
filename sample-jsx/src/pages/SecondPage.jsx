@@ -4,7 +4,7 @@ import CheckIcon from '@mui/icons-material/Check';
 const SecondPage = () => {
     return (
         <>
-<Alert severity="success" color="warning">
+            <Alert severity="success" color="warning">
                 Here is a gentle confirmation that your action was successful.
             </Alert>
 

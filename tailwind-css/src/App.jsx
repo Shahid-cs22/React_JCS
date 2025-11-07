@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import './App.css'
+import DarkLightMode from './pages/DarkLightMode'
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
         </p>
 
       </div>
+      <DarkLightMode/>
     </>
   )
 }

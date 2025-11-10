@@ -2,6 +2,7 @@ import React from 'react'
 import { Table } from 'react-bootstrap'
 import { stu } from '../../SMCE-CSE-2022'
 
+
 const TablesBoots = () => {
   return (
     <>
@@ -24,13 +25,14 @@ const TablesBoots = () => {
               <td>{student.Studentid}</td>
               <td>{student.Roll_No}</td>
               <td>{student.Student_Name}</td>
-              <td>{student.DOB}</td>             
+              <td>{student.DOB}</td>
               <td>{student.Mobile_Number}</td>
               <td>{student.Blood_Group}</td>
             </tr>
           ))}
         </tbody>
       </Table>
+    
     </>
   )
 }

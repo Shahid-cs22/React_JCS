@@ -23,6 +23,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/usecontext">UseContext</Nav.Link>
                             <Nav.Link as={Link} to="/useparams">UseParams</Nav.Link>
                             <Nav.Link as={Link} to="/asyncfun">AsynFun</Nav.Link>
+                            <Nav.Link as={Link} to="/yupone">YUP</Nav.Link>
                             {/* <Nav.Link to="">Home</Nav.Link>
                             <Nav.Link to="">Link</Nav.Link>
                             <Nav.Link to="">Home</Nav.Link>

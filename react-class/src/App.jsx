@@ -13,6 +13,7 @@ import StudentsDetails from './Hooks/UseParamsHooks/StudentsDetails';
 import StudentsView from './Hooks/UseParamsHooks/StudentsView';
 import AsyncFun from './AsynchronousFun/AsyncFun';
 import YupOne from './YUP/YupOne';
+import YupTwo from './YUP/YupTwo';
 
 
 const App = () => {
@@ -35,6 +36,9 @@ const App = () => {
         <Route path='/useparams/:id' element={<StudentsView />} />
         <Route path='/asyncfun' element={<AsyncFun/>} />
         <Route path='/yupone' element={<YupOne/>} />
+        <Route path='/yupone/yuptwo' element={<YupTwo/>} />
+     
+
 
 
       </Routes>

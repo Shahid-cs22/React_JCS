@@ -1,5 +1,8 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import * as Yup from "yup";
+import Button from '@mui/material/Button'
+
 
 const YupOne = () => {
     const [formData, setFormData] = useState({ email: "", age: "" });
@@ -23,6 +26,7 @@ const YupOne = () => {
         try {
             await schema.validate(formData, { abortEarly: false });
             setError({});
+            alert(`Email: ${formData.email}\n Age: ${formData.age}`)
             alert("Form Submitted Successfully!");
         } catch (err) {
             const errors = {};
@@ -32,6 +36,11 @@ const YupOne = () => {
             setError(errors);
         }
     };
+
+    const navi = useNavigate();
+    const goto = () => {
+        navi("./YupTwo")
+    }
 
     return (
         <div className="space-y-4 p-6 max-w-sm mx-auto">
@@ -64,6 +73,9 @@ const YupOne = () => {
                 <button type="submit" className="bg-blue-500 text-center text-white mt-2 px-4 py-2 rounded">
                     Submit
                 </button>
+                <Button variant="contained" color="warning" onClick={goto}>
+                  Click It
+                </Button>
             </form>
         </div>
     );

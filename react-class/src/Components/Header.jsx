@@ -25,6 +25,7 @@ const Header = () => {
                             <Nav.Link as={Link} to="/asyncfun">AsynFun</Nav.Link>
                             <Nav.Link as={Link} to="/yupone">YUP</Nav.Link>
                             <Nav.Link as={Link} to="/search">Search</Nav.Link>
+                            <Nav.Link as={Link} to="/localstorage">LocalStorage</Nav.Link>
                          
                         </Nav>
                     </Navbar.Collapse>

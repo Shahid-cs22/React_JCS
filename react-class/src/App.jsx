@@ -15,24 +15,26 @@ import YupOne from "./YUP/YupOne";
 import YupTwo from "./YUP/YupTwo";
 import Search from "./samples/Search";
 import { lazy, Suspense } from "react";
-const AsyncFun = lazy(() => import("./AsynchronousFun/AsyncFun"))
+const AsyncFun = lazy(() => import("./AsynchronousFun/AsyncFun"));
+const LocalStorage1 = lazy(()=> import("./LocalStorage/LocalStorage1"))
 
 
 const App = () => {
   return (
     <>
-      <Suspense fallback={<h2>Loading lazy code</h2>} >
+      <Suspense fallback={<h2 className="text-center text-red-500 font-bold pt-5">Loading lazy code</h2>} >
 
         <Routes>
           <Route path="/tablesBoots" element={<TablesBoots />} />
           <Route path="/usestate" element={<UseStateHooks2 />} />
-          <Route path="/usecontext" element={<MainContext />} />
+          <Route path="/usecontext" element={<MainContext />} /> 
           <Route path="/useparams" element={<StudentsDetails />} />
           <Route path="/useparams/:id" element={<StudentsView />} />
           <Route path="/asyncfun" element={<AsyncFun />} />
           <Route path="/yupone" element={<YupOne />} />
           <Route path="/yupone/yuptwo" element={<YupTwo />} />
           <Route path="/search" element={<Search />} />
+          <Route path="/LocalStorage" element={<LocalStorage1/>}/>
         </Routes>
         
       </Suspense>

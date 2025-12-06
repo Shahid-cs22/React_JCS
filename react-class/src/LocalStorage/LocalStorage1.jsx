@@ -1,4 +1,7 @@
 import React, { useEffect, useState } from 'react'
+import Button from 'react-bootstrap/Button';
+import { useNavigate } from 'react-router-dom';
+
 
 const LocalStorage1 = () => {
 
@@ -19,9 +22,11 @@ const LocalStorage1 = () => {
         setCount(count + 1);
     };
 
+    const navigation = useNavigate();
 
-
-
+    const goToLocalStorage2 = () => {
+        navigation('/LocalStorage2');
+    }
     return (
         <>
             <div className="p-6">
@@ -30,8 +35,8 @@ const LocalStorage1 = () => {
 
                 <p>Count:{count}</p>
 
-                <button type="button" onClick={increase}>Increase it</button>
-
+                <Button variant="primary" onClick={increase}>Increase it</Button>
+                <Button variant='danger' className='font-bold ms-2' onClick={goToLocalStorage2}>Local Storage TWO</Button>
             </div>
 
         </>

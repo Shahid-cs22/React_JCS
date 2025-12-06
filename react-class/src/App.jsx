@@ -15,6 +15,7 @@ import YupOne from "./YUP/YupOne";
 import YupTwo from "./YUP/YupTwo";
 import Search from "./samples/Search";
 import { lazy, Suspense } from "react";
+import LocalStorage2 from "./LocalStorage/LocalStorage2";
 const AsyncFun = lazy(() => import("./AsynchronousFun/AsyncFun"));
 const LocalStorage1 = lazy(()=> import("./LocalStorage/LocalStorage1"))
 
@@ -35,6 +36,7 @@ const App = () => {
           <Route path="/yupone/yuptwo" element={<YupTwo />} />
           <Route path="/search" element={<Search />} />
           <Route path="/LocalStorage" element={<LocalStorage1/>}/>
+          <Route path="/LocalStorage2" element={<LocalStorage2/>}/>
         </Routes>
         
       </Suspense>

@@ -16,8 +16,9 @@ import YupTwo from "./YUP/YupTwo";
 import Search from "./samples/Search";
 import { lazy, Suspense } from "react";
 import LocalStorage2 from "./LocalStorage/LocalStorage2";
+import FetchApi from "./API Folder/FetchApi";
 const AsyncFun = lazy(() => import("./AsynchronousFun/AsyncFun"));
-const LocalStorage1 = lazy(()=> import("./LocalStorage/LocalStorage1"))
+const LocalStorage1 = lazy(() => import("./LocalStorage/LocalStorage1"))
 
 
 const App = () => {
@@ -28,17 +29,18 @@ const App = () => {
         <Routes>
           <Route path="/tablesBoots" element={<TablesBoots />} />
           <Route path="/usestate" element={<UseStateHooks2 />} />
-          <Route path="/usecontext" element={<MainContext />} /> 
+          <Route path="/usecontext" element={<MainContext />} />
           <Route path="/useparams" element={<StudentsDetails />} />
           <Route path="/useparams/:id" element={<StudentsView />} />
           <Route path="/asyncfun" element={<AsyncFun />} />
           <Route path="/yupone" element={<YupOne />} />
           <Route path="/yupone/yuptwo" element={<YupTwo />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/LocalStorage" element={<LocalStorage1/>}/>
-          <Route path="/LocalStorage2" element={<LocalStorage2/>}/>
+          <Route path="/LocalStorage" element={<LocalStorage1 />} />
+          <Route path="/LocalStorage2" element={<LocalStorage2 />} />
+          <Route path="/fetchapi" element={<FetchApi />} />
         </Routes>
-        
+
       </Suspense>
     </>
   );

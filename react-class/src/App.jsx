@@ -17,6 +17,7 @@ import Search from "./samples/Search";
 import { lazy, Suspense } from "react";
 import LocalStorage2 from "./LocalStorage/LocalStorage2";
 import FetchApi from "./API Folder/FetchApi";
+import AxiosOne from "./API Folder/AxiosOne";
 const AsyncFun = lazy(() => import("./AsynchronousFun/AsyncFun"));
 const LocalStorage1 = lazy(() => import("./LocalStorage/LocalStorage1"))
 
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="/LocalStorage" element={<LocalStorage1 />} />
           <Route path="/LocalStorage2" element={<LocalStorage2 />} />
           <Route path="/fetchapi" element={<FetchApi />} />
+          <Route path="/axiosone" element={<AxiosOne />} />
         </Routes>
 
       </Suspense>

@@ -1,3 +1,5 @@
+// API https://api.api-ninjas.com/v1/animals
+// db.json  http://localhost:5000/data 
 export const stu = [
   {
     id: 1,

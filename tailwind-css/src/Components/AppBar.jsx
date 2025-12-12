@@ -14,7 +14,7 @@ const AppBar = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto">
                             <Nav.Link as={Link} to="/cart">GoCart</Nav.Link>
-                            <Nav.Link as={Link} to="/about">Link</Nav.Link>
+                            <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
 
                         </Nav>
                     </Navbar.Collapse>

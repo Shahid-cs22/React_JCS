@@ -75,6 +75,7 @@ const StudentsView = () => {
         >
           Print it
         </Button>
+        <Button variant='info' onClick={()=>alert("add it")}>Add To Cart</Button>
       </div>
     </div>
   );

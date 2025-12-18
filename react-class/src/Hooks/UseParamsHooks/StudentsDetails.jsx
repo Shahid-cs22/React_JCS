@@ -35,7 +35,7 @@ const StudentsDetails = () => {
                             <div className="d-flex justify-content-center gap-4">
                                 <Button variant="primary" onClick={goToHome}>Home</Button>
                                 <Link to={`/useparams/${data.id}`} className="btn btn-success btn-sm" > Details </Link>
-                                <Button variant='danger' onClick={()=>alert("Item is Added")} >AddToCart</Button>
+                                <Button variant='danger' onClick={() => dispatch(addItem)} >AddToCart</Button>
                             </div>
                         </Card.Body>
                     </Card>

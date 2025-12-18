@@ -2,7 +2,9 @@ import React from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 import { stu } from '../../../SMCE-CSE-2022'
 import { Button, Table } from 'react-bootstrap'
-
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
+import DeleteIcon from '@mui/icons-material/Delete';
 const StudentsView = () => {
   const { id } = useParams();
   const naviParams = useNavigate();
@@ -59,7 +61,7 @@ const StudentsView = () => {
         </tbody>
       </Table>
 
-      
+
       <div className="text-center mt-3">
         <Button
           variant="warning"
@@ -67,15 +69,14 @@ const StudentsView = () => {
           className="px-4 fw-bold shadow"
         >
           Back to Students List
-        </Button>
-        <Button
+        </Button> <Button variant='info' onClick={() => dispatch(increaseQty)}><AddIcon /></Button> <Button variant='danger' onClick={() => dispatch(removeItm)}><DeleteIcon /></Button> <Button variant='secondary' onClick={() => dispatch(decreaseQty)}><RemoveIcon /></Button>
+        {/* <Button
           variant="success"
-          onClick={toPrint} 
+          onClick={toPrint}
           className="px-4 mx-2 fw-bold shadow"
         >
           Print it
-        </Button>
-        <Button variant='info' onClick={()=>alert("add it")}>Add To Cart</Button>
+        </Button> */}
       </div>
     </div>
   );
